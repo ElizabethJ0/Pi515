@@ -34,3 +34,26 @@ print(i)
 n=2
 print(x+n/y)
 print(n,x)
+someFloat=14.5
+print(type(someFloat))
+m=7.2
+l=50
+print(int(m+l))
+v=4j
+print(m+v)
+f=5j
+print(v+f)
+import random
+print(random.randrange(1,10))
+print(random.randrange(1,100)/1.4)
+print(random.randrange(1,10)/random.randrange(1,10))
+#here we set the range from 1 to 10
+r=random.randrange 
+print(r(1,10))
+print("Pizza is the best food")
+print("Halloween is in a couple of day")
+greeting="hello world"
+print(greeting[2])
+Txt="October"
+print(Txt[0:4])
+print(Txt[1: ])
