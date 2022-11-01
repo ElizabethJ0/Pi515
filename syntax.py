@@ -1,23 +1,16 @@
 #print("Hello World")
-print("ELizabeth")
-print("John")
-print("Roosevlt high school has a marching band")
 y=5
 print(y)
-a="Elizabeth"
 t=5
+a="Elizabeth"
 print(y*t)
-print (a)
 print("hi\ngoodbye")
 #\n skips a line
 x=3
-print(x)
 print(x+t)
 print(x*t+x-y)
 print(str(x)+"Elizabeth")
 print(str(x-y*t)+"John")
-h="Hi"
-print(str(x)+a+h)
 v1,v2,v3="red","blue","white"
 print(v1)
 print(str(x)+v1)
@@ -57,3 +50,23 @@ print(greeting[2])
 Txt="October"
 print(Txt[0:4])
 print(Txt[1: ])
+print(10>9)
+print(10==10)
+someTxt="Red is my favorite color"
+print("blue"in someTxt)
+print("blue"not in someTxt)
+a=20
+b=30
+if b < a:
+ print("b is greater than a")
+else:
+ print("b is not greater than a")
+print(bool("green"))
+print(bool(["Hi",3,"dogs"]))
+print(bool({"Hi"}))
+def func():
+  return True
+if not func():
+  print('Yes')
+else:
+  print('No')
