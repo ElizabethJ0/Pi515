@@ -16,3 +16,16 @@ for x in numList:
 
 print ("This is the min:", min, "and This is the max:", max)
 #print (max, "This is the max")
+
+flavors= ["Chocolate", "Vanilla", "Cookie Dough", "Strawberry", "Cookies and cream"]
+flavors2=["Chocolate", "Vanilla","mint chocolate chip ", "Strawberry", "cookies and cream"]
+
+flavors.insert(2,"mint chocolate chip")
+print(flavors)
+flavors.remove("Strawberry")
+print(flavors)
+              
+print("Vanilla"in flavors)
+print("Vanilla"in flavors2)
+print("Cookie Dough" in flavors)
+print("Cookie Dough" in flavors2)
