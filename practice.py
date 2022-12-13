@@ -42,6 +42,14 @@
 
 
 
-for country in "countries":
-  for letter in country:
-    print (letter)
+# for country in "countries":
+#   for letter in country:
+#     print (letter)
+
+# My favorite holiday is:
+
+def func(holiday):
+  print("My favorite holiday is: " + holiday)
+
+func("Chistmas")
+  
